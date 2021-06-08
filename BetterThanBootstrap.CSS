@@ -1,0 +1,35 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+#main-header {
+  color: #000814;
+  background-color: #ffd60a;
+  padding: 2%;
+  font-size: xx-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  color: #000814;
+  background-color: #ffc300;
+}
+
+#items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-size: 150%;
+  padding: 20%;
+}
+
+li {
+  padding-bottom: 20%;
+  display: flex;
+  justify-content: space-between;
+}
